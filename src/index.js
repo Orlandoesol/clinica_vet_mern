@@ -2,8 +2,6 @@ import app from './app.js';
 import { connectDB } from './dbs.js';
 import { PORT } from './config.js';
 
-
-
 async function main() {
     try {
         await connectDB();
@@ -16,4 +14,3 @@ async function main() {
 }   
 
 main();
-
